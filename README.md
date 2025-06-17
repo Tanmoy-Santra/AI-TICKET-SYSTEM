@@ -12,7 +12,7 @@ An intelligent support ticketing system powered by the MERN stack (MongoDB, Expr
 - 💬 **Commenting System** on tickets
 - 📊 **Dashboard** with ticket stats
 - 📦 **Mongoose & MongoDB** for scalable data storage
-- 🎨 **Responsive UI** with React and TailwindCSS
+- 🎨 **Responsive UI** with React and daisyui
 - ⚙️ **RESTful APIs** using Express.js
 
 ## 🛠️ Tech Stack
@@ -28,8 +28,8 @@ An intelligent support ticketing system powered by the MERN stack (MongoDB, Expr
 
 ```
 ai-ticket-system/
-├── ai-ticket-frontend/     # React frontend
-├── ai-ticket-backend/      # Node/Express backend
+├── ai-ticket-frontend/     # Vite frontend
+├── ai-ticket-assistante/   # Node/Express backend
 └── README.md
 ```
 
@@ -38,7 +38,7 @@ ai-ticket-system/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-ticket-system.git
+git clone https://github.com/Tanmoy-Santra/ai-ticket-system.git
 cd ai-ticket-system
 ```
 
@@ -52,13 +52,13 @@ npm install
 ### 3. Install Backend Dependencies
 
 ```bash
-cd ../ai-ticket-backend
+cd ../ai-ticket-assistant
 npm install
 ```
 
 ### 4. Configure Environment Variables
 
-Create a `.env` file inside both `ai-ticket-frontend` and `ai-ticket-backend` folders.
+Create a `.env` file inside both `ai-ticket-frontend` and `ai-ticket-assistant` folders.
 
 #### Backend `.env` example:
 
