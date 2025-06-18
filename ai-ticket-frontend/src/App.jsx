@@ -1,7 +1,7 @@
 // App.jsx
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CheckAuth from "./components/CheckAuth.jsx";
-import Tickets from "./pages/tickets.jsx";
+import Tickets from "./pages/Tickets.jsx"
 import TicketDetailsPage from "./pages/TicketDetailsPage.jsx";
 import Login from "./pages/login.jsx";
 import Signup from "./pages/signup.jsx";
